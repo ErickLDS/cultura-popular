@@ -1,0 +1,43 @@
+/* Conteudo - Cards */
+#conteudo .info .card {
+	position: relative;
+	padding: 0;
+	margin: 0 auto;
+	margin-top: 10%;
+	border: none;
+	height: 340px;
+	align-self: center;
+	display: flex;
+	background-color: transparent;
+}
+
+#conteudo .info .card img {
+	border-radius: 10px;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	object-fit: cover;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, .3);
+}
+
+#conteudo .info .card .card-body {
+	padding: 0;
+	z-index: 20;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 100%;
+	background-color: transparent;
+	border-radius: 8px;
+}
+
+#conteudo .info .card .card-title {
+	font-size: 1.1em;
+	color: #fff;
+	font-weight: 400;
+	margin: 0;
+	text-align: left;
+	background-color: var(--cor-principal);
+	padding: 6% 7%;
+	border-radius: 10px;
+}

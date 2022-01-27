@@ -1,0 +1,119 @@
+@media screen and (min-width: 550px) {
+	body {
+		font-size: 20px!important;
+	}
+
+	#container {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	#container #mapa {
+		width: 80%;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	#container #mapa {
+		width: 70%;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	body {
+		font-size: 18px!important;
+	}
+
+	#btn-fechar {
+		padding: 3% 0%;
+	}
+
+	#container.active {
+		display: flex;
+		flex-direction: row;
+	}
+
+	#container #mapa {
+		width: 50%;
+	}
+
+	#container.active #mapa {
+		width: 50%;
+		position: fixed;
+		left: 0;
+	}
+
+	#container.active #informacoes {
+		transform: translateX(50%);
+		right: 0;
+	}
+
+	#container.active #info-conteudo {
+		width: 50%;
+		z-index: 20;
+		border: 4px solid var(--cor-principal);
+		border-right: none;
+		border-bottom: none;
+	}
+
+	#informacoes #cabecalho {
+		width: 50%;
+		padding: 10% 8% 20% 8%;
+		margin-bottom: -10%;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	#container #mapa {
+		width: 70%;
+		margin-top: 3%;
+	}
+
+	#container.active #mapa {
+		width: 50%;
+		position: fixed;
+		left: 0;
+	}
+
+	#container.active #informacoes {
+		transform: translateX(50%);
+		right: 0;
+	}
+
+	#container.active #info-conteudo {
+		width: 50%;
+		z-index: 20;
+	}
+
+	#informacoes #cabecalho {
+		width: 50%;
+		padding: 6% 8% 16% 8%;
+		margin-bottom: -10%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	body {
+		font-size: 20px!important;
+	}
+
+	#container #mapa {
+		width: 40%;
+		margin-top: 0;
+	}
+
+	#container.active #mapa {
+		padding: 8%;
+	}
+
+	#navegacao #conteudo .info .texto-principal {
+		font-size: 1.2em;
+	}
+}
+
+@media screen and (min-width: 1300px) {
+	#container.active #mapa {
+		padding: 10%;
+	}
+}
